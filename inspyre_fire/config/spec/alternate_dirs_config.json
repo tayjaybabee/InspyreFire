@@ -1,0 +1,14 @@
+{
+    "log_dir": {
+        "type": "string",
+        "default": null,
+        "description": "The directory to store logs in",
+        "required": false
+    },
+    "config_dir": {
+        "type": "string",
+        "default": null,
+        "description": "The directory to store configuration files in",
+        "required": false
+    }
+}

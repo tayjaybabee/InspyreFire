@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "inspyrefire"
+version = "1.0.0-dev.1"
+description = ""
+authors = ["Taylor B. <tayjaybabee@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+adb-shell = "^0.4.4"
+inspyre-toolbox = "1.6.0-dev.7"
+platformdirs = "^4.3.2"
+keyboard = "^0.13.5"
+python-box = "^7.2.0"
+inspy-logger = "^3.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+prompt-toolkit = "^3.0.47"
+ipython = "^8.27.0"
+ptipython = "^1.0.1"
+sphinx = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

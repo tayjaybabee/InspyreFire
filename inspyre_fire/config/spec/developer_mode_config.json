@@ -1,0 +1,13 @@
+{
+    "log_level": {
+        "type": "string",
+        "default": "debug",
+        "description": "The log level for the application while in development mode."
+    },
+    "auto_lock_dev_mode": {
+        "type": "boolean",
+        "default": false,
+        "description": "Whether or not to automatically lock the application in development mode if currently running in development mode."
+
+    }
+}
